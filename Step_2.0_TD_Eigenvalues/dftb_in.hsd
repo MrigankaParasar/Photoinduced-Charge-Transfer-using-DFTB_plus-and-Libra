@@ -1,0 +1,35 @@
+#   This file is to run the MD calculations to generate the trajectory
+#
+
+Geometry = xyzFormat {
+   <<< "charge_system.xyz"
+}
+
+Hamiltonian = DFTB {
+  SCC = Yes
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "../skf/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    C = "p"
+    H = "s"
+	N = "p"
+  }
+  Dispersion = LennardJones {
+    Parameters = UFFParameters {}
+  }
+  Filling = Fermi {
+    Temperature [K] = 300
+  }
+}
+
+Analysis = {
+	WriteEigenvectors = Yes
+	EigenvectorsAsText = Yes
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}

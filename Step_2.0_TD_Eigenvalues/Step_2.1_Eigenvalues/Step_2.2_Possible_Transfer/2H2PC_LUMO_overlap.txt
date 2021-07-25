@@ -1,0 +1,13 @@
+2H2PC : 186 Charge_System : 309 Overlap : 0.9780556629458561 
+2H2PC : 188 Charge_System : 311 Overlap : 0.9777574624545484 
+2H2PC : 189 Charge_System : 312 Overlap : 0.9743660767631626 
+2H2PC : 192 Charge_System : 318 Overlap : 0.9590919612704164 
+2H2PC : 193 Charge_System : 319 Overlap : 0.9514074120172915 
+2H2PC : 195 Charge_System : 321 Overlap : 0.9629615957304621 
+2H2PC : 201 Charge_System : 335 Overlap : 0.9404430507038523 
+2H2PC : 202 Charge_System : 336 Overlap : 0.9431746533780512 
+2H2PC : 203 Charge_System : 337 Overlap : 0.9816011349932363 
+2H2PC : 206 Charge_System : 350 Overlap : 0.9728122526105051 
+2H2PC : 208 Charge_System : 349 Overlap : 0.9630696125164835 
+2H2PC : 341 Charge_System : 587 Overlap : 0.9028518993218522 
+2H2PC : 354 Charge_System : 582 Overlap : 0.9414321481266124 

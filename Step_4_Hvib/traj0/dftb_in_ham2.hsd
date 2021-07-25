@@ -1,0 +1,32 @@
+Geometry = genFormat {
+    <<< "x1.gen"
+}
+
+Hamiltonian = DFTB {
+  scc = Yes
+  ReadInitialCharges = Yes
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "../../skf/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum {
+    C = "p"
+    H = "s"
+	N = "p"
+  }
+  Dispersion = LennardJones {
+    Parameters = UFFParameters {}
+ }
+  Filling = Fermi {
+    Temperature [K] = 300
+  }
+}
+
+Options {
+	WriteHS = Yes
+}
+
+ParserOptions {
+  ParserVersion = 7
+}
