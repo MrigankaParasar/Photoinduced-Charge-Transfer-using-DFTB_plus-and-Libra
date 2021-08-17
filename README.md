@@ -8,7 +8,7 @@ using DFTB+.
 
 2. Calculation of time-dependent eigenspectrum : We determine the possible transitions that can take place over the course of the MD trajectory. This information is used for choosing the initial state of the system.
 
-3. Trajectory Sampling : Multiple trajectories are sampled from the initial MD trajectory. All MD calculation have been done using DFTB+.
+3. Trajectory Sampling : Multiple trajectories are sampled from the initial MD trajectory. All MD calculations have been done using DFTB+.
 
 4. Calculation of Hvib files : The vibronic hamiltonian matrices are generated for each time step using Libra libraries. 
 
